@@ -13,7 +13,6 @@ kafka-pkg-setup:
 kafka-user:
   user.present:
     - name: kafka
-    - shell: /bin/false
     - gid_from_name: True
     - system: True
 
