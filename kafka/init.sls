@@ -15,7 +15,6 @@ kafka-user:
     - name: kafka
     - shell: /bin/false
     - gid_from_name: True
-    - createhome: False
     - system: True
 
 /var/log/kafka:
